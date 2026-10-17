@@ -6,10 +6,8 @@ The challenge provides `aes.bmp.enc`, described as a bitmap encrypted using AES 
 **Observed result:** The recovered black-and-white pattern appears to read **`Tro11d`** (the middle two characters are digits `1`; a narrow fragment at the left edge is visible). 
 
 ## Team
-| Member | GitHub username 
-|---|---|---|
-| Member 1 — Md Khaledul Haque | `@khdip`
-| Member 2 — [full name] | 
+Member 1 — Md Khaledul Haque | `@khdip`
+Member 2 — Raita Tasnim | 
 
 ## Reproduce the result
 Requirements: Python 3.10+ and Pillow.
@@ -22,8 +20,6 @@ python3 solve.py
 Outputs:
 - `images/recovered_raw.bmp`: a valid BMP header attached to the encrypted pixel bytes; the pixel data is **not** decrypted.
 - `images/recovered_clean.png`: high-contrast pattern reconstruction made by mapping the most frequent 16-byte ciphertext block to white and other blocks to black.
-
-![High-contrast reconstruction](images/recovered_clean.png)
 
 ## Method and evidence
 1. Inspect the supplied file: it begins `5a 97`, not the `42 4d` ("BM") signature expected for a standard BMP header.
