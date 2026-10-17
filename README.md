@@ -7,6 +7,7 @@ The challenge provides `aes.bmp.enc`, described as a bitmap encrypted using AES 
 
 ## Team
 Member 1 — Md Khaledul Haque | `@khdip` 
+
 Member 2 — Raita Tasnim | 
 
 ## Reproduce the result
