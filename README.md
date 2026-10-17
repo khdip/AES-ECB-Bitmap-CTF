@@ -8,7 +8,7 @@ The challenge provides `aes.bmp.enc`, described as a bitmap encrypted using AES 
 ## Team
 Member 1 — Md Khaledul Haque | `@khdip` 
 
-Member 2 — Raita Tasnim | 
+Member 2 — Raita Tasnim | `@raita03`
 
 ## Reproduce the result
 Requirements: Python 3.10+ and Pillow.
