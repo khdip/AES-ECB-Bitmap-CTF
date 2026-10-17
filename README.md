@@ -6,7 +6,7 @@ The challenge provides `aes.bmp.enc`, described as a bitmap encrypted using AES 
 **Observed result:** The recovered black-and-white pattern appears to read **`Tro11d`** (the middle two characters are digits `1`; a narrow fragment at the left edge is visible). 
 
 ## Team
-Member 1 — Md Khaledul Haque | `@khdip`
+Member 1 — Md Khaledul Haque | `@khdip` 
 Member 2 — Raita Tasnim | 
 
 ## Reproduce the result
